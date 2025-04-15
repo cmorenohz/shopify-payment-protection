@@ -10,29 +10,23 @@
       "use": "@vercel/static"
     }
   ],
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1.js"
-    },
-    {
-      "source": "/admin",
-      "destination": "/public/admin/index.html"
-    },
-    {
-      "source": "/admin/(.*)",
-      "destination": "/public/admin/$1"
-    }
-  ],
   "routes": [
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
+      "src": "/api/(.*)",
+      "dest": "/api/$1.js"
+    },
+    {
+      "src": "/admin",
+      "dest": "/public/admin/index.html"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "/public/admin/$1"
     }
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "src": "/api/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
