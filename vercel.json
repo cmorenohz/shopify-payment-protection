@@ -12,35 +12,26 @@
   ],
   "rewrites": [
     {
-      "source": "/api/status",
-      "destination": "/api/status.js"
-    },
-    {
-      "source": "/api/clients",
-      "destination": "/api/clients.js"
+      "source": "/api/(.*)",
+      "destination": "/api/$1.js"
     },
     {
       "source": "/admin",
       "destination": "/public/admin/index.html"
+    },
+    {
+      "source": "/admin/(.*)",
+      "destination": "/public/admin/$1"
     }
   ],
   "headers": [
     {
-      "source": "/api/status",
+      "source": "/api/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "no-store"
         },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    },
-    {
-      "source": "/api/clients",
-      "headers": [
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
