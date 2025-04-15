@@ -26,7 +26,7 @@
   ],
   "headers": [
     {
-      "src": "/api/(.*)",
+      "source": "/api/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
