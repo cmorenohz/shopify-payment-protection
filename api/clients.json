@@ -1,0 +1,13 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Cliente Ejemplo",
+      "domain": "ejemplo.myshopify.com",
+      "status": "active",
+      "paymentStatus": "completed",
+      "message": "",
+      "createdAt": "2024-03-20T00:00:00.000Z"
+    }
+  ]
+} 

@@ -1,0 +1,24 @@
+{
+  "name": "shopify-payment-protection",
+  "version": "1.0.0",
+  "description": "Sistema de protección de pago para tiendas Shopify",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": [
+    "shopify",
+    "payment",
+    "protection",
+    "vercel"
+  ],
+  "author": "Cristóbal Moreno",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^2.15.4"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.1"
+  }
+} 
