@@ -10,18 +10,18 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/status",
-      "dest": "/api/status.js"
+      "source": "/api/status",
+      "destination": "/api/status.js"
     },
     {
-      "src": "/api/clients",
-      "dest": "/api/clients.js"
+      "source": "/api/clients",
+      "destination": "/api/clients.js"
     },
     {
-      "src": "/admin",
-      "dest": "/public/admin/index.html"
+      "source": "/admin",
+      "destination": "/public/admin/index.html"
     }
   ],
   "headers": [
