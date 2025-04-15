@@ -1,4 +1,4 @@
-const API_URL = '/api/clients';
+const API_URL = 'https://shopify-payment-protection-qdh6.vercel.app/api/clients';
 
 // Función para cargar la lista de clientes
 async function loadClients() {

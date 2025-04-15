@@ -1,5 +1,5 @@
 (function() {
-  const API_URL = 'https://[nombre].vercel.app/api/status';
+  const API_URL = 'https://shopify-payment-protection-qdh6.vercel.app/api/status';
   
   function createOverlay(message) {
     const overlay = document.createElement('div');
