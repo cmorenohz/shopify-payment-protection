@@ -24,6 +24,12 @@
       "destination": "/public/admin/$1"
     }
   ],
+  "routes": [
+    {
+      "src": "/public/(.*)",
+      "dest": "/public/$1"
+    }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
